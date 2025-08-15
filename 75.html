@@ -3,82 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>75 DSA LeetCode Problems</title>
+  <title>Ultimate 75 DSA Challenges</title>
   <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
     header, footer {
-      background-color: #1e1e2f;
-      color: white;
-      padding: 1rem;
+      background-color: #1e1e2f; color: white; padding: 1rem;
       text-align: center;
     }
-
     nav {
-      background-color: #2f2f46;
-      display: flex;
-      justify-content: space-around;
-      padding: 1rem;
+      background-color: #2f2f46; display: flex;
+      justify-content: space-around; padding: 1rem;
       flex-wrap: wrap;
     }
-
     nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0.5rem;
+      color: #fff; text-decoration: none; margin: 0.5rem;
       font-weight: bold;
     }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    article {
-      padding: 1.5rem;
-    }
-
-    h2 {
-      color: #2c2c2c;
-      margin-top: 1.5rem;
-    }
-
-    ul {
-      list-style-type: square;
-      padding-left: 1.5rem;
-    }
-
+    nav a:hover { text-decoration: underline; }
+    article { padding: 1.5rem; }
+    h2 { color: #2c2c2c; }
+    ul { list-style: none; padding: 0; }
+    li { margin: 0.5rem 0; }
     a.problem-link {
-      color: #0066cc;
-      text-decoration: none;
+      color: #1a73e8; text-decoration: none;
     }
-
-    a.problem-link:hover {
-      text-decoration: underline;
-    }
-
-    footer {
-      margin-top: 2rem;
-    }
+    a.problem-link:hover { text-decoration: underline; }
+    footer { margin-top: 2rem; }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>75 DSA LeetCode Problems</h1>
-    <p>Sharpen your skills with hand-picked LeetCode challenges</p>
+    <h1>Ultimate 75 DSA Challenges</h1>
+    <p>Master DSA with the most essential 75 problems</p>
   </header>
 
   <nav>
-    <a href="C:\Users\ANUSHA\OneDrive\Desktop\DSA\home.html"> Home</a>
-    <a href="#arrays">Arrays</a>
-    <a href="#strings">Strings</a>
-    <a href="#linkedlists">Linked Lists</a>
-    <a href="#stacksqueues">Stacks & Queues</a>
-    <a href="#trees">Trees</a>
-    <a href="#graphs">Graphs</a>
+    <a href="C:\Users\ANUSHA\OneDrive\Desktop\DSA\home.html">Home</a>
+    <a href="#array">Array</a>
+    <a href="#binary">Binary</a>
     <a href="#dp">Dynamic Programming</a>
+    <a href="#graph">Graph</a>
+    <a href="#interval">Interval</a>
+    <a href="#linkedlist">Linked List</a>
+    <a href="#matrix">Matrix</a>
+    <a href="#string">String</a>
+    <a href="#tree">Tree</a>
+    <a href="#heap">Heap</a>
   </nav>
 
-  <article id="arrays">
-    <h2>Arrays</h2>
+  <article id="array">
+    <h2>Array</h2>
     <ul>
       <li><a class="problem-link" href="https://leetcode.com/problems/two-sum/" target="_blank">Two Sum</a></li>
       <li><a class="problem-link" href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" target="_blank">Best Time to Buy and Sell Stock</a></li>
@@ -93,65 +68,14 @@
     </ul>
   </article>
 
-  <article id="strings">
-    <h2>Strings</h2>
+  <article id="binary">
+    <h2>Binary</h2>
     <ul>
-      <li><a class="problem-link" href="https://leetcode.com/problems/valid-anagram/" target="_blank">Valid Anagram</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/group-anagrams/" target="_blank">Group Anagrams</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/valid-palindrome/" target="_blank">Valid Palindrome</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/longest-palindromic-substring/" target="_blank">Longest Palindromic Substring</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/longest-substring-without-repeating-characters/" target="_blank">Longest Substring Without Repeating Characters</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/reverse-string/" target="_blank">Reverse String</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/implement-strstr/" target="_blank">Implement strStr()</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/zigzag-conversion/" target="_blank">Zigzag Conversion</a></li>
-    </ul>
-  </article>
-
-  <article id="linkedlists">
-    <h2>Linked Lists</h2>
-    <ul>
-      <li><a class="problem-link" href="https://leetcode.com/problems/reverse-linked-list/" target="_blank">Reverse Linked List</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/merge-two-sorted-lists/" target="_blank">Merge Two Sorted Lists</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/linked-list-cycle/" target="_blank">Linked List Cycle</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/" target="_blank">Remove Nth Node From End of List</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/add-two-numbers/" target="_blank">Add Two Numbers</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/palindrome-linked-list/" target="_blank">Palindrome Linked List</a></li>
-    </ul>
-  </article>
-
-  <article id="stacksqueues">
-    <h2>Stacks & Queues</h2>
-    <ul>
-      <li><a class="problem-link" href="https://leetcode.com/problems/valid-parentheses/" target="_blank">Valid Parentheses</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/min-stack/" target="_blank">Min Stack</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/evaluate-reverse-polish-notation/" target="_blank">Evaluate Reverse Polish Notation</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/daily-temperatures/" target="_blank">Daily Temperatures</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/car-fleet/" target="_blank">Car Fleet</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/implement-queue-using-stacks/" target="_blank">Implement Queue Using Stacks</a></li>
-    </ul>
-  </article>
-
-  <article id="trees">
-    <h2>Trees</h2>
-    <ul>
-      <li><a class="problem-link" href="https://leetcode.com/problems/maximum-depth-of-binary-tree/" target="_blank">Maximum Depth of Binary Tree</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/same-tree/" target="_blank">Same Tree</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/invert-binary-tree/" target="_blank">Invert Binary Tree</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/binary-tree-level-order-traversal/" target="_blank">Binary Tree Level Order Traversal</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/diameter-of-binary-tree/" target="_blank">Diameter of Binary Tree</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/subtree-of-another-tree/" target="_blank">Subtree of Another Tree</a></li>
-    </ul>
-  </article>
-
-  <article id="graphs">
-    <h2>Graphs</h2>
-    <ul>
-      <li><a class="problem-link" href="https://leetcode.com/problems/clone-graph/" target="_blank">Clone Graph</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/course-schedule/" target="_blank">Course Schedule</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/number-of-islands/" target="_blank">Number of Islands</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/pacific-atlantic-water-flow/" target="_blank">Pacific Atlantic Water Flow</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/word-ladder/" target="_blank">Word Ladder</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/graph-valid-tree/" target="_blank">Graph Valid Tree</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/sum-of-two-integers/" target="_blank">Sum of Two Integers</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/number-of-1-bits/" target="_blank">Number of 1 Bits</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/counting-bits/" target="_blank">Counting Bits</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/missing-number/" target="_blank">Missing Number</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/reverse-bits/" target="_blank">Reverse Bits</a></li>
     </ul>
   </article>
 
@@ -161,7 +85,8 @@
       <li><a class="problem-link" href="https://leetcode.com/problems/climbing-stairs/" target="_blank">Climbing Stairs</a></li>
       <li><a class="problem-link" href="https://leetcode.com/problems/coin-change/" target="_blank">Coin Change</a></li>
       <li><a class="problem-link" href="https://leetcode.com/problems/longest-increasing-subsequence/" target="_blank">Longest Increasing Subsequence</a></li>
-      <li><a class="problem-link" href="https://leetcode.com/problems/word-break/" target="_blank">Word Break</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/longest-common-subsequence/" target="_blank">Longest Common Subsequence</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/word-break/" target="_blank">Word Break Problem</a></li>
       <li><a class="problem-link" href="https://leetcode.com/problems/combination-sum-iv/" target="_blank">Combination Sum IV</a></li>
       <li><a class="problem-link" href="https://leetcode.com/problems/house-robber/" target="_blank">House Robber</a></li>
       <li><a class="problem-link" href="https://leetcode.com/problems/house-robber-ii/" target="_blank">House Robber II</a></li>
@@ -171,8 +96,100 @@
     </ul>
   </article>
 
+  <article id="graph">
+    <h2>Graph</h2>
+    <ul>
+      <li><a class="problem-link" href="https://leetcode.com/problems/clone-graph/" target="_blank">Clone Graph</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/course-schedule/" target="_blank">Course Schedule</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/pacific-atlantic-water-flow/" target="_blank">Pacific Atlantic Water Flow</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/number-of-islands/" target="_blank">Number of Islands</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/longest-consecutive-sequence/" target="_blank">Longest Consecutive Sequence</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/alien-dictionary/" target="_blank">Alien Dictionary (Premium)</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/graph-valid-tree/" target="_blank">Graph Valid Tree (Premium)</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/" target="_blank">Number of Connected Components in an Undirected Graph (Premium)</a></li>
+    </ul>
+  </article>
+
+  <article id="interval">
+    <h2>Interval</h2>
+    <ul>
+      <li><a class="problem-link" href="https://leetcode.com/problems/insert-interval/" target="_blank">Insert Interval</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/merge-intervals/" target="_blank">Merge Intervals</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/non-overlapping-intervals/" target="_blank">Non-overlapping Intervals</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/meeting-rooms/" target="_blank">Meeting Rooms (Premium)</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/meeting-rooms-ii/" target="_blank">Meeting Rooms II (Premium)</a></li>
+    </ul>
+  </article>
+
+  <article id="linkedlist">
+    <h2>Linked List</h2>
+    <ul>
+      <li><a class="problem-link" href="https://leetcode.com/problems/reverse-linked-list/" target="_blank">Reverse Linked List</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/linked-list-cycle/" target="_blank">Detect Cycle in a Linked List</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/merge-two-sorted-lists/" target="_blank">Merge Two Sorted Lists</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/merge-k-sorted-lists/" target="_blank">Merge K Sorted Lists</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/" target="_blank">Remove Nth Node From End Of List</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/reorder-list/" target="_blank">Reorder List</a></li>
+    </ul>
+  </article>
+
+  <article id="matrix">
+    <h2>Matrix</h2>
+    <ul>
+      <li><a class="problem-link" href="https://leetcode.com/problems/set-matrix-zeroes/" target="_blank">Set Matrix Zeroes</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/spiral-matrix/" target="_blank">Spiral Matrix</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/rotate-image/" target="_blank">Rotate Image</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/word-search/" target="_blank">Word Search</a></li>
+    </ul>
+  </article>
+
+  <article id="string">
+    <h2>String</h2>
+    <ul>
+      <li><a class="problem-link" href="https://leetcode.com/problems/longest-substring-without-repeating-characters/" target="_blank">Longest Substring Without Repeating Characters</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/longest-repeating-character-replacement/" target="_blank">Longest Repeating Character Replacement</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/minimum-window-substring/" target="_blank">Minimum Window Substring</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/valid-anagram/" target="_blank">Valid Anagram</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/group-anagrams/" target="_blank">Group Anagrams</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/valid-parentheses/" target="_blank">Valid Parentheses</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/valid-palindrome/" target="_blank">Valid Palindrome</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/longest-palindromic-substring/" target="_blank">Longest Palindromic Substring</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/palindromic-substrings/" target="_blank">Palindromic Substrings</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/encode-and-decode-strings/" target="_blank">Encode and Decode Strings (Premium)</a></li>
+    </ul>
+  </article>
+
+  <article id="tree">
+    <h2>Tree</h2>
+    <ul>
+      <li><a class="problem-link" href="https://leetcode.com/problems/maximum-depth-of-binary-tree/" target="_blank">Maximum Depth of Binary Tree</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/same-tree/" target="_blank">Same Tree</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/invert-binary-tree/" target="_blank">Invert/Flip Binary Tree</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/binary-tree-maximum-path-sum/" target="_blank">Binary Tree Maximum Path Sum</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/binary-tree-level-order-traversal/" target="_blank">Binary Tree Level Order Traversal</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/serialize-and-deserialize-binary-tree/" target="_blank">Serialize and Deserialize Binary Tree</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/subtree-of-another-tree/" target="_blank">Subtree of Another Tree</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/" target="_blank">Construct Binary Tree from Preorder & Inorder</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/validate-binary-search-tree/" target="_blank">Validate Binary Search Tree</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/" target="_blank">Kth Smallest Element in a BST</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/" target="_blank">Lowest Common Ancestor of BST</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/implement-trie-prefix-tree/" target="_blank">Implement Trie (Prefix Tree)</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/add-and-search-word-data-structure-design/" target="_blank">Add and Search Word (Data Structure Design)</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/word-search-ii/" target="_blank">Word Search II</a></li>
+    </ul>
+  </article>
+
+  <article id="heap">
+    <h2>Heap</h2>
+    <ul>
+      <li><a class="problem-link" href="https://leetcode.com/problems/merge-k-sorted-lists/" target="_blank">Merge K Sorted Lists</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/top-k-frequent-elements/" target="_blank">Top K Frequent Elements</a></li>
+      <li><a class="problem-link" href="https://leetcode.com/problems/find-median-from-data-stream/" target="_blank">Find Median from Data Stream</a></li>
+    </ul>
+  </article>
+
   <footer>
-    <p>&copy; 2025 Ultimate DSA Sheet | Made with ❤️</p>
+    <p>&copy; 2025 Ultimate 75 DSA Challenges | Made with ❤️</p>
   </footer>
 
 </body>
